@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 92vh;
+}
+
+
+
+.bodydiv h3 {
+    width: 100%;
+    height: 8vh;
+    color: white;
+    text-shadow: 3px 3px 15px royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    font-weight: 500;
+    position: relative;
+    top: 20px;
+}
+
+
+.bodydiv {
+    width: 90%;
+    margin: auto;
+    height: 92vh;
+}
+
+.first1 {
+    width: 100%;
+    height: 25%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #191f365f;
+}
+
+
+.insideFirst1 {
+    width: 20%;
+    height: 100%;
+}
+
+.first1 .insideFirst1 .projectImg {
+    width: 100%;
+    height: 100%;
+    border: 10px solid white;
+    padding: 10px;
+    transform: rotate(-15deg);
+    border-radius: 10px;
+}
+
+
+.first1 .proH1 {
+    margin-left: 50px;
+    text-transform: capitalize;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+    font-size: 18px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-family: cursive;
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-right: 5px solid royalblue;
+    margin-bottom: 10px;
+    border-bottom: 5px solid royalblue;
+}
+
+.Pro_second {
+    background-color: #191f365f;
+    margin-top: 80px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.Pro_second div {
+    width: 300px;
+    height: 200px;
+}
+
+.Pro_second div .projectImg1 {
+    width: 100%;
+    height: 100%;
+    border: 10px solid white;
+    padding: 10px;
+    transform: rotate(15deg);
+    border-radius: 10px;
+}
+
+.Pro_second .proH12 {
+    text-transform: capitalize;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+    font-size: 18px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-family: cursive;
+    margin-right: 50px;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-left: 5px solid royalblue;
+    margin-bottom: 10px;
+    border-bottom: 5px solid royalblue;
+}
