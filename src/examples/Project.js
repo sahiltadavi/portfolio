@@ -10,7 +10,7 @@ const Project = () => {
                 <h3>Projects</h3>
                 <div className='first1'>
                     <div className='insideFirst1'>
-                        <img src={project2} className='projectImg'></img>
+                        <img src={project2} className='projectImg' alt="description of the image"></img>
                     </div>
                     <h1 className='proH1'>smart maintainance portal</h1>
                 </div>
@@ -18,7 +18,7 @@ const Project = () => {
                 <div className='Pro_second'>
                     <h1 className='proH12'>plant leaf disease prediction using machine learning </h1>
                     <div>
-                        <img src={project1} className='projectImg1'></img>
+                        <img src={project1} className='projectImg1' alt="description of the image"></img>
                     </div>
                 </div>
             </div>

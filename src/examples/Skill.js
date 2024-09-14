@@ -13,13 +13,13 @@ function Skill() {
             <div className="name">Skills</div>
             <main>
                 <div className="item">
-                    <img className="skillImg" src={html}></img>
-                    <img className="skillImg"src={css}></img>
-                    <img className="skillImg"src={javascript}></img>
+                    <img className="skillImg" alt={html} src={html}></img>
+                    <img className="skillImg" alt={css} src={css}></img>
+                    <img className="skillImg" alt={javascript}  src={javascript}></img>
 
-                    <img className="skillImg"src={react}></img>
-                    <img className="skillImg"src={java}></img>
-                    <img className="skillImg"src={mysql}></img>
+                    <img className="skillImg" alt ={react} src={react}></img>
+                    <img className="skillImg" alt={java} src={java}></img>
+                    <img className="skillImg" alt={mysql} src={mysql}></img>
                 </div>
             </main>
         </body >
