@@ -25,7 +25,6 @@ let logo = {
   color: "#2d78cf",
   fontSize: "25px",
   fontFamily: "san-serif",
-  color: "white",
   fontWeight: "bold",
   textShadow: "1px 1px 3px black"
 }
