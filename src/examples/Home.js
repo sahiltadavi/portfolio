@@ -1,5 +1,6 @@
 import React from 'react';
 import logoImg from "../assets/logoImg.jpg";
+import "./Home.css";
 
 let section = {
   width: "100%",
@@ -54,23 +55,7 @@ let img = {
   objectFit: "cover",
   border: "10px solid yellow",
 }
-let button = {
-  ouline: "none",
-  border: "none",
-  height: "40px",
-  width: "100%",
-  display: "flex",
-  alignItems: "center",
-  textTransform: "capitalize",
-  fontSize: "17px",
-  borderRadius: "17px",
-  paddingLeft: "15px",
-  backgroundColor: "royalBlue",
-  fontFamily: "san-serif",
-  fontWeight: "bold",
-  letterSpacing: ".3px",
-   boxShadow:"3px 3px 15px black",
-}
+
 let right = {
   height: "50%",
   width: "50%",
@@ -90,9 +75,13 @@ const Home = () => {
           <p style={p1}>Hello, I am</p>
           <h1 style={h11}>Sahil Tadavi<br /><h3 style={h11span}>I'm a Full Stack Developer</h3></h1>
           <p style={p2}>Building Bridges Between Front-end and Back-end , Transforming Ideas into Web Reality</p>
-          <button  style={button}>Download Resume</button>
+          <button className='h'>
+            <a href='https://drive.google.com/uc?export=download&id=11e8hkiMb2puuYtBH7mvqhY2kuNs0x7f3' style={{textDecoration:"none"}}>
+            download Resume
+            </a>
+          </button>
         </div>
-
+        
         <div style={right}>
           <img src={logoImg} alt="logoImg" style={img}></img>
         </div>

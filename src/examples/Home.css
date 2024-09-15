@@ -1,0 +1,31 @@
+.h {
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 17px;
+    border-radius: 17px;
+    padding-left: 15px;
+    background-color: royalBlue;
+    font-family: san-serif;
+    font-weight: bold;
+    letter-spacing: .3px;
+    box-shadow: 3px 3px 15px black;
+    transition: all .1s linear;
+    cursor: pointer;
+}
+.h a{
+    color: black;
+}
+.h a:hover{
+    color: black;
+}
+.h:hover{
+transform: scale(.9);
+box-shadow: none;
+background-color: rgba(65, 105, 225, 0.824);
+
+}
