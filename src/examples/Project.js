@@ -6,7 +6,7 @@ import project2 from "../assets/project2.jpg";
 const Project = () => {
     return (
         <div className='bodydiv'>
-            <h3>Projects</h3>
+            <h3>PRojects</h3>
             <div className='first1'>
                 <div className='insideFirst1'>
                     <img src={project2} className='projectImg' alt="Smart Maintenance Portal screenshot"></img>
