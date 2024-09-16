@@ -2,7 +2,7 @@ import React from 'react';
 import "./Contact.css";
 const Contact = () => {
     return (
-        <body>
+        <body className='contactBody'>
             <div className='two'>
                 <div className='login'>
                     <from action="">

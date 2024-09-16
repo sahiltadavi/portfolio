@@ -3,11 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+.skillBody{
     width: 100vw;
-    height: 90vh;
-    background-color: #262840;
-    
+    height: 92vh;
+    background-color: #262840;  
 }
 .name{
     text-align: center;
@@ -20,7 +19,7 @@ body{
     letter-spacing: 1px;
     text-shadow: 3px 3px 5px black;
 }
-main{
+.skillmain{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,5 +55,60 @@ main{
 .skillImg:hover{
 
       box-shadow: 3px 3px 15px white;
+}
+@media only screen and (max-width: 600px) {
+    .skillBody{
+        width: 100vw;
+        height: 100vh;
+        position: relative;        
+    }
+    .name{
+        width: 100%;
+        position: absolute;
+        top: 30px;
+    }
+    .skillmain{
+        position: absolute;
+        top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        /* background-color: red; */
+        height: 100%;
+        margin: auto;
+    }
+    .item{
+        /* margin-top: 30px; */
+        top:0px;
+        /* background-color: red; */
+        position: absolute;
+        left: 40px;
+        display: grid;
+        gap: 0px 100px;
+        grid-template-columns:auto auto;
+        width:100%;
+        padding: 50px;
+
+        height: 100%; 
+        /* margin: auto; */
+    }
+    .skillImg{
+        object-fit: cover;
+        width: 150px;
+        height: 150px;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 1);
+        border-radius: 10px;
+        transition: .3s linear;
+        cursor:not-allowed;
+
+    }
+    .skillImg:nth-child(6)
+{
+    width: 150px;
+    height: 150px;
+    box-shadow:5px 5px 15px rgba(0, 0, 0,2); 
+}
 }
 

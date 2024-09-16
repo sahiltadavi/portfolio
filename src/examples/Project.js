@@ -5,7 +5,8 @@ import project2 from "../assets/project2.jpg";
 
 const Project = () => {
     return (
-        <div className='bodydiv'>
+        <body className='projectBody'>
+            <div className='projectdiv'>
             <h3>PRojects</h3>
             <div className='first1'>
                 <div className='insideFirst1'>
@@ -21,6 +22,7 @@ const Project = () => {
                 </div>
             </div>
         </div>
+        </body>
     )
 }
 

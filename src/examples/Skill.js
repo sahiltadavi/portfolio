@@ -9,9 +9,9 @@ import mysql from "../assets/mysql.jpg";
 
 function Skill() {
     return (
-        <body>
+        <body className="skillBody">
             <div className="name">Skills</div>
-            <main>
+            <main className="skillmain">
                 <div className="item">
                     <img className="skillImg" alt={html} src={html}></img>
                     <img className="skillImg" alt={css} src={css}></img>

@@ -1,3 +1,60 @@
+.homeBody {
+    width: 100vw;
+    height: 92vh;
+    background-color: #262840;
+    /* background-color: black; */
+}
+
+.homeSection {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeLeft {
+    padding: 20px;
+    width: 60%;
+    height: 50%;
+    margin: 0px 0px 0px 20px;
+    color: white;
+    line-height: 10px;
+}
+
+.homeP1 {
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px black;
+}
+
+.homeh11 {
+    font-size: 60px;
+    margin-top: 50px;
+    text-shadow: 3px 5px 5px black;
+}
+
+.homeh11span {
+    text-shadow: 3px 3px 5px black;
+    font-size: 35px;
+    margin-top: 40px;
+}
+
+.homeRight {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homep2 {
+    line-height: 20px;
+    width: 100%;
+}
+
 .h {
     outline: none;
     border: none;
@@ -16,16 +73,99 @@
     box-shadow: 3px 3px 15px black;
     transition: all .1s linear;
     cursor: pointer;
+    margin-top: 30px;
 }
-.h a{
-    color: black;
-}
-.h a:hover{
-    color: black;
-}
-.h:hover{
-transform: scale(.9);
-box-shadow: none;
-background-color: rgba(65, 105, 225, 0.824);
 
+.homeImg {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 10px solid yellow;
+}
+
+.h a {
+    color: black;
+}
+
+.h a:hover {
+    color: black;
+}
+
+.h:hover {
+    transform: scale(.9);
+    box-shadow: none;
+    background-color: rgba(65, 105, 225, 0.824);
+}
+
+@media only screen and (max-width: 600px) {
+    .homeBody {
+        width: 100vw;
+        height: 92vh;
+    }   
+    .homeSection {
+        width: 100%;
+        margin: auto;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .homeLeft {
+        padding: 20px;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        height: 50%;
+        margin: auto;
+    }
+    .homeh11 {
+        font-size: 50px;
+        margin-top: 50px;
+    }
+    .homeh11span {
+        font-weight: 400;
+        text-shadow: 3px 3px 5px black;
+        font-size: 30px;
+        margin-top: 25px;
+        line-height: 30px;
+    }
+    .homeRight {
+        height: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .h {
+        height: 30px;
+        width: 100%;
+        font-size: 15px;
+        margin-top: 45px;
+        
+    }
+    .h a{
+        margin: auto;
+    }
+
+    .homeImg {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 10px solid yellow;
+    }  
+    .homeRight {
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+        height: 50%;
+        width: 100%;
+    }
+    
+    .homep2 {
+        line-height: 30px;
+        width: 100%;
+        font-size: 20px;
+    } 
 }
