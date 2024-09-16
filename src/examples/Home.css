@@ -60,20 +60,14 @@
     border: none;
     height: 40px;
     width: 25%;
-    display: flex;
-    align-items: center;
-    text-transform: capitalize;
-    font-size: 17px;
     border-radius: 17px;
-    padding-left: 15px;
     background-color: royalBlue;
-    font-family: san-serif;
-    font-weight: bold;
     letter-spacing: .3px;
     box-shadow: 3px 3px 15px black;
     transition: all .1s linear;
     cursor: pointer;
     margin-top: 30px;
+  
 }
 
 .homeImg {
@@ -85,7 +79,15 @@
 }
 
 .h a {
+    font-family: san-serif;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: black;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 15px;
 }
 
 .h a:hover {
